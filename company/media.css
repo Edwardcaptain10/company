@@ -1,0 +1,591 @@
+@media (max-width:1024px){
+  .text-area {
+    margin-left: 50px;
+    width: 50%;
+    height: 60vh;
+    /* border: 1px solid red; */
+}
+
+.text-area p {
+    font-size: 16px;
+}
+
+
+.people-1 {
+  background-position: 62%;
+}
+.people-2{
+  background-position: 20%;
+}
+
+.people-3 {
+  background-position: 45%;
+}
+
+
+
+.pink {
+  flex-wrap: wrap;
+  height: 200vh;
+}
+
+.pink-container {
+  flex-wrap: wrap;
+  height: 200vh;
+}
+
+.pink .left {
+  width: 100%;
+}
+
+.pink .left p {
+  font-size: 30px;
+  line-height: 60px;
+}
+
+.pink .right {
+  width: 100%;
+}
+
+.pink .right .top {
+  height: 40vh;
+  width: inherit;
+}
+
+
+.pink .right .top p {
+  font-size: 30px;
+}
+
+footer p {
+  font-size: 20px;
+}
+
+footer h6 {
+  font-size: 20px;
+}
+
+/* aboutus */
+
+.first .first-image .right h3 {
+  margin: 27px 0px;
+  font-size: 21px;
+}
+
+.first-text p {
+  font-size: 15px;
+  line-height: 40px;
+}
+
+
+/* contact us */
+
+.reach-out form {
+  width: 45%;
+}
+
+.reach-out form input {
+  width: 100%;
+}
+
+.reach-out form button {
+  padding: 13px 50px;
+}
+
+
+/* page 1 */
+
+.mates-4 p {
+  font-size: 15px;
+}
+
+
+/* page 2 */
+.page-2 .pic-text {
+  width: 60%;
+  height: 60vh;
+} 
+
+.page-2 .pic-text h3 {
+  font-size: 24px;
+}
+
+
+
+.page-2 .pic-text p {
+  font-size: 13px;
+}
+
+.pic-1 {
+  width: 23%;
+  height: 29vh;
+  margin-left: 0px;
+}
+
+.pic-2 {
+  width: 20%;
+  left: 290px;
+}
+}
+
+@media(max-width:768px){
+  .text-area p {
+    font-size: 14px;
+    line-height: 23px;
+}
+
+  .pink .left p {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.pink .right .top p {
+  font-size: 20px;
+}
+
+.together h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.together p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.together .fill {
+  margin: 15px;
+  font-size: 15px;
+}
+
+footer p {
+  font-size: 17px;
+}
+
+footer h6 {
+  font-size: 17px;
+}
+
+/* about us */
+
+.first-text p {
+  font-size: 11px;
+  line-height: 40px;
+}
+
+.first .first-image {
+  width: 100%;
+  height: 40vh;
+}
+
+.first .first-image .circle {
+  width: 45%;
+  height: 25vh;
+}
+
+.first .first-image .right h3 {
+  margin: 23px 0px;
+  font-size: 11px;
+}
+
+/* page 1 */
+
+.mates-4 h3 {
+  font-size: 35px;
+}
+
+
+.mates-4 p {
+  font-size: 11px;
+}
+
+/* page 2 */
+
+
+
+
+
+
+
+/* page 4 */
+
+.success .text-path h1 {
+  font-size: 30px;
+}
+
+.success .text-path p {
+  font-size: 16px;
+}
+}
+
+@media (max-width:626px){
+  nav ul  {
+    display: none;
+    background-color: #f2f2f2;
+    min-width: 90px;
+    position: absolute;
+  }
+
+  .menu{
+    display:flex;
+  }
+
+  nav:hover ul  {
+    display: block;
+  }
+
+  .text-area {
+    width: 100%;
+    height: 70vh;
+}
+
+.pink .left p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.together p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+}
+
+@media (max-width:425px){
+  nav ul  {
+    display: none;
+    background-color: #f2f2f2;
+    min-width: 90px;
+    position: absolute;
+  }
+
+  .menu{
+    display:flex;
+  }
+
+  nav:hover ul  {
+    display: block;
+  }
+
+  .hero {
+    background-image: none;
+}
+
+.text-area p {
+  font-size: 13px;
+  line-height: 23px;
+}
+
+.members {
+  flex-wrap: wrap;
+  height: fit-content;
+}
+
+.members-container {
+  flex-wrap: wrap;
+  height: fit-content;
+}
+
+.people{
+  background-position: center;
+  width: 45%;
+  height: 50vh;
+}
+
+.people-1, .people-2, .people-3{
+  background-image: none;
+  border: 1px solid red;
+  display: none;
+}
+
+.pink .left h5 {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.pink .left p{
+  font-size: 12px;
+}
+
+
+  .pink .right .top p {
+      font-size: 13px;
+      line-height: 25px;
+  }
+
+  .together .call-lines {
+    width: 100%;
+}
+
+/* about us */
+
+.first-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.first .first-image {
+  width: 100%;
+  flex-wrap: wrap;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.first .first-image .circle {
+  width: 45%;
+  height: 36vh;
+}
+
+.first .first-image .right {
+  height: 25vh;
+}
+
+.first-text h5 {
+  font-size: 13px;
+}
+
+.first .first-image .right h6 {
+  margin: 12px 0px;
+}
+
+.first-text p {
+  font-size: 10px;
+  line-height: 20px;
+}
+
+
+/* contact us */
+
+.reach-out{
+  background-image: none;
+}
+
+.reach-out form {
+  width: 100%;
+  margin: 0px;
+}
+
+.reach-out form button {
+  padding: 13px 150px;
+}
+
+.reach-out form h6 {
+  margin-top: 30px;
+}
+
+.client h3{
+  font-size: 30px;
+}
+
+.client {
+  height: 35vh;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+footer p {
+  padding-top: 30px;
+  margin-bottom: 40px;
+}
+
+/* page 1 */
+
+.team{
+  height: fit-content;
+}
+
+.team-container{
+  flex-wrap: wrap;
+  height: fit-content;
+}
+
+.mate{
+  width: 100%;
+  margin-top: 5px;
+}
+
+
+
+
+
+
+
+
+/* page 4 */
+
+.success{
+  height: 70vh;
+}
+
+.success .text-path h4 {
+  font-size: 20px;
+  margin: 25px 0 10px 20px;
+}
+
+
+.success .text-path {
+  width: 100%;
+  margin: 0px;
+}
+
+  .success .text-path h1 {
+      font-size: 30px;
+  }
+}
+
+@media(max-width:375px){
+  nav ul  {
+    display: none;
+    background-color: #f2f2f2;
+    min-width: 90px;
+    position: absolute;
+  }
+
+  .menu{
+    display:flex;
+  }
+
+  nav:hover ul  {
+    display: block;
+  }
+
+  .text-area p {
+    font-size: 12px;
+}
+
+.pink .left h5 {
+  font-size: 12px;
+}
+
+.pink .left p {
+  font-size: 10.5px;
+}
+
+.pink .right .top p {
+  font-size: 11px;
+}
+
+footer p {
+  font-size: 15px;
+}
+
+footer h6 {
+  font-size: 15px;
+}
+
+/* avbout us*/
+
+.first .first-image .circle {
+  height: 31vh;
+}
+
+.first-text p {
+  font-size: 9px;
+}
+
+/* contact us */
+
+.reach-out form button {
+  padding: 13px 130px;
+}
+
+
+/* page 4 */
+
+.success{
+  background-image: none;
+}
+}
+
+@media(max-width:320px){
+
+  nav ul  {
+    display: none;
+    background-color: #f2f2f2;
+    min-width: 90px;
+    position: absolute;
+  }
+
+  .menu{
+    display:flex;
+  }
+
+  nav:hover ul  {
+    display: block;
+  }
+
+  .text-area p {
+    font-size: 10px;
+}
+
+
+.pink .right .top p {
+  font-size: 9px;
+}
+
+.people {
+  width: 100%;
+  height: 50vh;
+}
+
+.pink .left h5 {
+  font-size: 10px;
+  line-height: 20px;
+}
+
+.pink .left button {
+  padding: 20px 60px;
+  font-size: 12px;
+}
+
+.pink .left p {
+  font-size: 9px;
+}
+
+/* about us */
+
+.first .first-image .circle {
+  height: 28vh;
+}
+
+.first-text p {
+  font-size: 8px;
+}
+
+
+/* contact us */
+
+
+.reach-out form button {
+  padding: 13px 100px;
+}
+
+.client h3 {
+  font-size: 20px;
+}
+
+/* page 1 */
+
+.mates-4 h3 {
+  font-size: 25px;
+}
+
+.mates-4 p {
+  font-size: 9px;
+}
+
+/* page 4 */
+
+
+.success .text-path p {
+  font-size: 13px;
+}
+
+.success .text-path button {
+  padding: 23px 65px;
+  border-radius: 30px;
+}
+}

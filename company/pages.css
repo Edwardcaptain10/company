@@ -1,0 +1,342 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dropdown{
+  position: relative;
+ 
+}
+
+.btn{
+  color: #111111;
+  background-color: #f2f2f2;
+  border: none;
+  cursor: pointer;
+  /* border: 1px solid red; */
+  padding:10px 31px ;
+}
+
+.dropdown-list{
+  display: none;
+  background-color: #f2f2f2;
+  min-width: 100px;
+  z-index: 1;
+  position: absolute;
+}
+
+.dropdown-list li{
+  list-style: none;
+  padding-left: 10px;
+}
+
+.dropdown:hover {
+  cursor: pointer;
+}
+
+.dropdown:hover .dropdown-list{
+  display: block;
+}
+
+header a{
+  color: #111111;
+  text-decoration: none;
+}
+
+
+/* THIS IS THE FIRST SECTION IN PAGE-1 */
+
+
+.team{
+  width: 100%;
+  height: 120vh;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.team-container{
+  width: 85%;
+  height: 120vh;
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  flex-wrap: wrap;
+}
+
+.mate{
+  width: 23%;
+  height: 56vh;
+  /* border: 1px solid red; */
+}
+
+.mates-1{
+  width: 23%;
+  height: 56vh;
+  /* border: 1px solid red; */
+  background-image: url(./images/a.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mates-2{
+  width: 23%;
+  height: 56vh;
+  /* border: 1px solid red; */
+  background-image: url(./images/b.jpg);
+  background-position: 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mates-3{
+  width: 49%;
+  height: 56vh;
+  /* border: 1px solid red; */
+  background-image: url(./images/d.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mates-4{
+  width: 49%;
+  height: 56vh;
+  padding-left: 15px;
+  padding-top: 40px;
+  background-color: #f2f2f2;
+  /* border: 1px solid red; */
+}
+
+.mates-4 h5{
+  font-size: x-large;
+  margin: 20px;
+  color: rgba(19, 19, 19, 0.904);
+}
+
+.mates-4 h3{
+  font-size: 45px;
+  margin: 20px;
+
+}
+
+.mates-4 p{
+  font-size: 18px;
+  margin-left: 20px;
+  line-height: 25px;
+  color: rgba(19, 19, 19, 0.904);
+}
+
+.mates-4 p span{
+  color: #ff6008;
+}
+
+.mates-5{
+  width: 23%;
+  height: 56vh;
+  /* border: 1px solid red; */
+  background-image: url(./images/e.jpg);
+  background-position: 35%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mates-6{
+  width: 23%;
+  height: 56vh;
+  /* border: 1px solid red; */
+  background-image: url(./images/f.jpg);
+  background-position: 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* THIS IS A FOOTER FOR PAGE-1 */
+
+.page-1{
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333333;
+}
+
+
+.page-1 h6{
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.page-1 h6 span{
+  color: #ffffff;
+}
+
+/* THIS IS THE SECTION FOR PAGE-2 */
+
+.page-2{
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+}
+
+.page-2-container{
+  width: 90%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* border: 1px solid red; */
+}
+
+.position{
+  width: 50%;
+  height: 40vh;
+  border: 1px solid red;
+  position: relative;
+}
+
+.pic{
+  width: 20%;
+  height: 35vh;
+  border-radius: 50%;
+  /* border: 1px solid red; */
+}
+.pic-1{
+  width: 16%;
+  height: 29vh;
+  margin-left: 40px;
+  border-radius: 50%;
+  background-image: url(./images/a.jpg);
+  background-position: 70%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border: 1px solid red; */
+}
+.pic-2{
+  width: 14%;
+  height: 28vh;
+  border-radius: 50%;
+  position: absolute;
+  left: 340px;
+  z-index: 1;
+  background-image: url(./images/e.jpg);
+  background-position: 55%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* border: 1px solid red; */
+}
+
+.page-2 .pic-text{
+  /* border: 1px solid red; */
+  position: relative;
+  background-color: #4d4d4d;
+  padding-left: 160px;
+  margin-right: 45px;
+  width: 65%;
+  height: 60vh;
+}
+
+.page-2 .pic-text button{
+  padding: 13px 37px;
+  background-color: #ff6008;
+  margin:20px;
+  color: #f2f2f2;
+  border: none;
+  border-radius: 80px;
+}
+.page-2 .pic-text h3{
+  font-size: 35px;
+  color: #f2f2f2;
+  margin:20px;
+}
+.page-2 .pic-text p{
+  font-size: 20px;
+  margin:20px;
+  color: #ffffff;
+  line-height: 30px;
+}
+
+.page-2 .pic-text p span{
+  color: #ff6008;
+}
+
+
+.pagefoot{
+  width: 100%;
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333333;
+}
+
+
+.pagefoot h6{
+  font-size: 15px;
+  color: #ffffff;
+}
+
+.pagefoot h6 span{
+  color: #ffffff;
+}
+
+
+/* THIS IS THE FIRST SECTION IN THE PAGE-4 */
+
+.success{
+  width: 100%;
+  height: 100vh;
+  /* border: 1px solid red; */
+  display: flex;
+  background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url(./images/i.jpg);
+  background-position: 10%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.success .text-path{
+  width: 50%;
+  height: 80vh;
+  margin: 90px;
+  /* border: 1px solid red; */
+}
+
+.success .text-path h4{
+  font-size: 23px;
+  margin: 25px 0 10px  20px;
+}
+
+.success .text-path h1{
+  font-size: 60px;
+  margin: 20px 0 15px  20px;
+}
+
+.success .text-path p{
+  font-size: 18px;
+  line-height: 30px;
+  margin: 25px 0 30px  20px;
+}
+
+.success .text-path button{
+  padding: 27px 65px;
+  border-radius: 40px;
+  margin-left: 20px;
+  color: #ffffff;
+  background-color: #ff6008;
+  border: none;
+}
+
+ 
+ 
+
+
+
